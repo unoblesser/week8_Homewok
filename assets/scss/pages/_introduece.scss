@@ -1,0 +1,21 @@
+.w30{
+    width: 30%;
+}
+.border-1-radius{
+    border: 1px solid $white;
+    border-radius: 20px;
+}
+.border-circle{
+    border: 2px solid $white;
+    border-radius: 100px;
+    padding: 4px 4px;
+}
+.bg-karina{
+    height: 925px;
+    background-image: url(carousel_background.png);
+    background-size: cover;
+}
+.move-icon{
+    position: relative;
+    bottom: 250px;
+}

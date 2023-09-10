@@ -1,0 +1,23 @@
+@media (max-width:1200px) {
+    .display-in-pc-header {
+    display: none;
+    }
+}
+@media (max-width:992px) {
+    .display-in-mobile-header {
+    display: none;
+    }
+}
+@media (min-width:1200px) {
+    .hide-in-list {
+    display: none;
+    }
+    .undisplay-in-pc-header {
+        display: none;
+    }
+}
+@media (min-width:992px) {
+    .undisplay-in-mobile-header {
+    display: none;
+    }
+}

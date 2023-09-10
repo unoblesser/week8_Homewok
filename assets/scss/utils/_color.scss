@@ -1,0 +1,54 @@
+$purple-100: #7000FF !default;
+$purple-200: #11002D !default;
+$purple-300: #6E01F8 !default;
+$purple-400: #380C7E !default;
+$purple-500: #1F0F39 !default;
+$purple-600: #AD93CF !default;
+$purple-700: #28085C !default;
+$black: #000000 !default;
+$white: #FFFFFF !default;
+$gray:  #E9E2F3 !default;
+
+.color-white{
+    color: $white;
+}
+.color-black{
+    color: $black;
+}
+.color-purple-500{
+    color: $purple-500;
+}
+.color-purple-600{
+    color: $purple-600;
+}
+
+.bg-purple-100{
+    background: $purple-100;
+}
+.bg-purple-300{
+    background: $purple-300;
+}
+.bg-purple-400{
+    background: $purple-400;
+}
+.bg-purple-500{
+    background: $purple-500;
+}
+.bg-white{
+    background: $white;
+}
+.bg-black{
+    background: $black;
+}
+.bg-gradient-purple-bottom{
+    background-image: linear-gradient(to bottom, $purple-100, $purple-200);
+}
+.bg-gradient-purple-left{
+    background-image: linear-gradient(to left, $purple-100, $purple-200);
+}
+.bg-gradient-purple-right{
+    background-image: linear-gradient(to right, $purple-100, $purple-200);
+}
+.bg-gradient-black-center{
+    background-image: radial-gradient(ellipse at center, $purple-700, $black);
+}

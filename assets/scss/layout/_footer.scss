@@ -1,0 +1,18 @@
+.footer-mb{
+    margin-bottom: 0px;
+}
+@media (max-width: 1400px) {
+    .footer-mb{
+        margin-bottom: 4px;
+    }
+}
+@media (max-width:768px) {
+    .display-in-pc-footer {
+    display: none;
+    }
+}
+@media (min-width:768px) {
+    .display-in-mobile-footer {
+    display: none;
+    }
+}
